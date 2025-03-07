@@ -6,74 +6,132 @@
     <title>Texto Centralizado</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: linear-gradient(to right, #a1c4fd, #c2e9fb);
-            font-family: Arial, sans-serif;
-            color: #333;
-            text-align: center;
+
+            background: url(https://images.unsplash.com/photo-1557683316-973673baf926);
+            background-size: cover;
+            background-position: center;
         }
-        .content {
-            font-size: 24px;
+     .menu h1 {
+            font-size: 28px;
             font-weight: bold;
             background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .content {
+            font-size: 20px;
+            font-weight: bold;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
             border-radius: 10px;
             white-space: pre-line;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            gap: 60px;
-            top: 90px;
-            position: relative;
+            max-width: 80%;
+            text-align: left;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .content {
+                font-size: 16px;
+                padding: 20px;
+                max-width: 90%;
+            }
+
+            .content p {
+                font-size: 14px;
+            }
+
+            .menu h1 {
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            .content {
+                font-size: 14px;
+                padding: 15px;
+            }
+
+            .content p {
+                font-size: 12px;
+            }
+
+            .menu {
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="menu">
+        <h1>OITO VERSOS DO TREINAMENTO DA MENTE</h1>
+    </div>
+
     <div class="content">
-      <h1>OITO VERSOS DO TREINAMENTO DA MENTE</h1>
         <p>   
         Possa eu sempre estimar todos os seres
         Com a resolução de atingir para eles
         O bem mais elevado, mais precioso
         Do que qualquer joia que realiza desejos.
        
+        [Sugestão:  parar e contemplar]
+       
         Sempre que estiver na companhia de outros,
         Possa eu me considerar inferior a todos
         E do fundo do meu coração
         Estimar os outros como supremos.
+     
+        [Sugestão: parar e contemplar]
        
         Em todas as minhas ações, possa eu vigiar minha mente,
         E, tão logo surjam as emoções perturbadoras,
         Possa eu energicamente detê-las no mesmo instante,
         Uma vez que irão ferir tanto a mim quanto aos outros.
+       
+        [Sugestão: parar e contemplar]
         
         Quando vir pessoas de má índole,
         Oprimidas pelas más ações e pela dor,
         Possa eu estimá-las como algo raro,
         Como se tivesse encontrado um tesouro.
-        
+
+        [Sugestão: para parar e contemplar]
+
         Quando alguém por inveja me fizer mal,
         Insultando-me e coisas assim,
         Possa eu aceitar a derrota
         E oferecer-lhe a vitória.
-        
+       
+        [Sugestão: parar e contemplar]
+       
         Mesmo que alguém a quem eu tenha ajudado
         E em quem tenha depositado minhas esperanças,
         Faça grande mal ao me causar dano,
         Possa eu vê-lo como um excelente amigo espiritual.
+       
+        [Sugestão: parar e contemplar]
         
         Em resumo, direta ou indiretamente,
         Possa eu dar todo auxílio e alegria a minhas mães,
         E possa eu tomar todo seu dano e dor
         Para mim em segredo.
-       
         Possa nada disso jamais ser maculado
         Por pensamentos das oito preocupações mundanas.
         Possa eu ver todas as coisas como ilusões
         E, sem apego, obter a liberdade da escravidão.
+
+        [Sugestão: parar e contemplar]
         </p>
     </div>
 </body>
